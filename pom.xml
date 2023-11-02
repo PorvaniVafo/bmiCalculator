@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>bmiCalculator</artifactId>
+    <artifactId>BMI2</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>bmiCalculator</name>
+    <name>BMI2</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -38,11 +38,6 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-graphics</artifactId>
-            <version>21-ea+24</version>
-        </dependency>
     </dependencies>
 
     <build>
@@ -65,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.example.bmicalculator/com.example.bmicalculator.bmiApplication</mainClass>
+                            <mainClass>com.example.bmi2/com.example.bmi2.HelloApplication</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
